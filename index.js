@@ -10,7 +10,19 @@ function getComputerChoice(){
     }
 }
 
-
+function getHumanChoice(){
+    let choice = prompt("Please enter your choice, rock, paper or scissors:");
+    switch(choice){
+        case "rock":
+            return "rock";
+        case "paper":
+            return "paper";
+        case "scissors":
+            return "scissors";
+        default:
+            return "Incorrect choice";
+    }
+}
 
 
 
