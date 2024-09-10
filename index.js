@@ -1,5 +1,8 @@
+let humanScore = 0;
+let computerScore = 0;
+
 function getComputerChoice(){
-    const rndInt = Math.floor(Math.random() * 3) + 1;
+    let rndInt = Math.floor(Math.random() * 3) + 1;
     switch(rndInt){
         case 1:
             return "rock";
